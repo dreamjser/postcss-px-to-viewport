@@ -1,0 +1,39 @@
+{
+  "name": "@dreamjser/postcss-px-to-viewport",
+  "description": "A CSS post-processor that converts px to viewport units (vw, vh, vmin, vmax).",
+  "version": "1.1.1",
+  "author": "dreamjser@gamil.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamjser/postcss-px-to-viewport"
+  },
+  "homepage": "https://github.com/dreamjser/postcss-px-to-viewport",
+  "main": "index.js",
+  "keywords": [
+    "css",
+    "units",
+    "pixel",
+    "px",
+    "viewport",
+    "vw",
+    "vh",
+    "vmin",
+    "vmax",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "scripts": {
+    "test": "jest spec/*.spec.js"
+  },
+  "dependencies": {
+    "object-assign": ">=4.0.1"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "postcss": "^8.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  }
+}
